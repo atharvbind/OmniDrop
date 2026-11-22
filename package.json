@@ -1,0 +1,21 @@
+{
+  "name": "omnidrop",
+  "version": "1.0.0",
+  "description": "Universal single-endpoint ingestion web application powered by omni-body",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx server.ts",
+    "test": "tsx test-client.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "omni-body": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
